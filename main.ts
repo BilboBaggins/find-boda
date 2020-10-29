@@ -16,3 +16,4 @@ let mySprite = sprites.create(img`
     . . . . c c b 4 4 4 b b 4 5 4 4 
     . . . . . . c c c c c c b b 4 . 
     `, SpriteKind.Player)
+pause(100)

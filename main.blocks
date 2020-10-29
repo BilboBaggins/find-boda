@@ -15,4 +15,4 @@ c 4 d 5 4 5 d 5 5 5 5 5 5 5 5 4
 . . . c 4 4 4 4 4 4 4 4 5 5 5 4 
 . . . . c c b 4 4 4 b b 4 5 4 4 
 . . . . . . c c c c c c b b 4 . 
-`</field></shadow></value><value name="kind"><shadow type="spritekind" id="*MZ%f^Z`Y7_b|N-jiJS9"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="*MZ%f^Z`Y7_b|N-jiJS9"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="device_pause" id="]l;OkDFzBI,_8EL;lGG~"><value name="pause"><shadow type="timePicker" id="tjrH0[^cA.L]Kdi![$-x"><field name="ms">100</field></shadow></value></block></next></block></statement></block></xml>

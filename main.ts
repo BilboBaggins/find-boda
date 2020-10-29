@@ -1,20 +1,20 @@
 let mySprite = sprites.create(img`
-    4 4 4 . . 4 4 4 4 4 . . . . . . 
-    4 5 5 4 4 5 5 5 5 5 4 4 . . . . 
-    b 4 5 5 1 5 1 1 1 5 5 5 4 . . . 
-    . b 5 5 5 5 1 1 5 5 1 1 5 4 . . 
-    . b d 5 5 5 5 5 5 5 5 1 1 5 4 . 
-    b 4 5 5 5 5 5 5 5 5 5 5 1 5 4 . 
-    c d 5 5 5 5 5 5 5 5 5 5 5 5 5 4 
-    c d 4 5 5 5 5 5 5 5 5 5 5 1 5 4 
-    c 4 5 5 5 d 5 5 5 5 5 5 5 5 5 4 
-    c 4 d 5 4 5 d 5 5 5 5 5 5 5 5 4 
-    . c 4 5 5 5 5 d d d 5 5 5 5 5 b 
-    . c 4 d 5 4 5 d 4 4 d 5 5 5 4 c 
-    . . c 4 4 d 4 4 4 4 4 d d 5 d c 
-    . . . c 4 4 4 4 4 4 4 4 5 5 5 4 
-    . . . . c c b 4 4 4 b b 4 5 4 4 
-    . . . . . . c c c c c c b b 4 . 
+    . . . . 7 7 7 7 7 7 7 7 . . . . 
+    7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+    7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+    . 7 7 7 7 f 7 7 7 7 f 7 7 7 7 . 
+    . . 7 7 7 7 7 7 7 7 7 7 7 7 . . 
+    . . . 7 7 7 7 7 7 7 7 7 7 . . . 
+    . . . 7 7 7 f f f f 7 7 7 . . . 
+    . . . 7 7 7 7 7 7 7 7 7 7 . . . 
+    . . . e 7 7 7 7 7 7 7 7 e . . . 
+    . . e e d d d e d d d d e e . . 
+    . . e d d d d e d d d d d e . . 
+    . . e d d d d e d d d d d e . . 
+    . . e d d d d e d d d d d e . . 
+    . . e d d d d e d d d d d e . . 
+    . . e d d d d e d d d d d e . . 
+    . . e d d d d e d d d d d e . . 
     `, SpriteKind.Player)
 pause(100)
 info.setScore(0)
